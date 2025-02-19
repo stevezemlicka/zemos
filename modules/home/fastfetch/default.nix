@@ -50,7 +50,7 @@
           }
           {
               type = "custom";
-              format = " OS -> ZaneyOS 2.3";
+              format = " OS -> ZemOS 1.0";
           }
           {
               type = "kernel";
