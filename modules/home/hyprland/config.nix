@@ -22,7 +22,7 @@ in
         "killall -q swaync;sleep .5 && swaync"
         "nm-applet --indicator"
         "lxqt-policykit-agent"
-        "sleep 1.5 && swww img /home/${username}/Pictures/Wallpapers/zaney-wallpaper.jpg"
+        "sleep 1.5 && swww img /home/${username}/Pictures/Wallpapers/retro-pc-keys.jpg"
       ];
 
       input = {
