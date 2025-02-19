@@ -7,29 +7,29 @@
   # Styling Options
   stylix = {
     enable = true;
-    image = ../../wallpapers/zaney-wallpaper.jpg;
+    image = ../../wallpapers/retro-pc-keys.jpg;
     base16Scheme = {
-      base00 = "282936";
-      base01 = "3a3c4e";
-      base02 = "4d4f68";
-      base03 = "626483";
-      base04 = "62d6e8";
-      base05 = "e9e9f4";
-      base06 = "f1f2f8";
-      base07 = "f7f7fb";
-      base08 = "ea51b2";
-      base09 = "b45bcf";
-      base0A = "00f769";
-      base0B = "ebff87";
-      base0C = "a1efe4";
-      base0D = "62d6e8";
-      base0E = "b45bcf";
-      base0F = "00f769";
+      base00 = "282828";
+      base01 = "3c3836";
+      base02 = "504945";
+      base03 = "665c54";
+      base04 = "458588";
+      base05 = "ebdbb2";
+      base06 = "a89984";
+      base07 = "fbf1c7";
+      base08 = "d3869b";
+      base09 = "fb4934";
+      base0A = "98971a";
+      base0B = "fabd2f";
+      base0C = "689d6a";
+      base0D = "83a598";
+      base0E = "b16286";
+      base0F = "b8bb26";
     };
     polarity = "dark";
     opacity.terminal = 0.8;
-    cursor.package = pkgs.bibata-cursors;
-    cursor.name = "Bibata-Modern-Ice";
+    cursor.package = pkgs.capitaine-cursors-themed;
+    cursor.name = "Capitaine Cursors (Gruvbox) - White";
     cursor.size = 24;
     fonts = {
       monospace = {
@@ -37,16 +37,16 @@
         name = "JetBrainsMono Nerd Font Mono";
       };
       sansSerif = {
-        package = pkgs.montserrat;
-        name = "Montserrat";
+        package = pkgs.dejavu_fonts;
+        name = "DejaVu Sans";
       };
       serif = {
-        package = pkgs.montserrat;
-        name = "Montserrat";
+        package = pkgs.dejavu_fonts;
+        name = "DejaVu Serif";
       };
       sizes = {
         applications = 12;
-        terminal = 15;
+        terminal = 11;
         desktop = 11;
         popups = 12;
       };
