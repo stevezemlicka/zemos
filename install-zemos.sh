@@ -70,7 +70,7 @@ fi
 echo "-----"
 
 echo "Cloning & Entering ZemOS Repository"
-git clone https://gitlab.com/stevezemlicka/zemos.git
+git clone https://github.com/stevezemlicka/zemos.git
 cd zemos || exit
 mkdir hosts/"$hostName"
 cp hosts/default/*.nix hosts/"$hostName"
