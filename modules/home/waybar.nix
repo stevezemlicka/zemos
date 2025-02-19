@@ -266,7 +266,7 @@ in
           #clock {
             font-weight: bold;
             color: #0D0E15;
-            background: linear-gradient(90deg, #${config.lib.stylix.colors.base0E}, #${config.lib.stylix.colors.base0C});
+            background: linear-gradient(90deg, #${config.lib.stylix.colors.base09}, #${config.lib.stylix.colors.base0C});
             margin: 0px;
             padding: 0px 15px 0px 30px;
             border-radius: 0px 0px 0px 40px;
