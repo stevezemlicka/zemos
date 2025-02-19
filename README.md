@@ -1,1 +1,4 @@
-Personal NixOS config based on ZaneyOS
+Personal NixOS config.
+
+Required:
+NixOS Base Install and git.
