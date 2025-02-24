@@ -53,6 +53,7 @@
     mpv
     ncdu
     ninja
+    nextcloud-client
     nixfmt-rfc-style
     obs-studio
     pavucontrol

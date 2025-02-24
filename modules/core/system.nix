@@ -26,8 +26,8 @@ in {
     LC_TIME = "en_US.UTF-8";
   };
   environment.variables = {
-    ZANEYOS_VERSION = "2.3";
-    ZANEYOS = "true";
+    ZEMOS_VERSION = "2.3";
+    ZEMOS = "true";
   };
   console.keyMap = "${consoleKeyMap}";
   system.stateVersion = "23.11"; # Do not change!
