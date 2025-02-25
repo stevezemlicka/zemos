@@ -21,6 +21,5 @@
     ./waybar.nix
     ./wlogout
     ./xdg.nix
-    ./nfs-mounts.nix
   ];
 }
