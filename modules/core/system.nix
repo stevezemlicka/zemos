@@ -26,7 +26,7 @@ in {
     LC_TIME = "en_US.UTF-8";
   };
   environment.variables = {
-    ZEMOS_VERSION = "2.3";
+    ZEMOS_VERSION = "1.0";
     ZEMOS = "true";
   };
   console.keyMap = "${consoleKeyMap}";
