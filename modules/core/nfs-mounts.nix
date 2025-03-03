@@ -1,4 +1,4 @@
-{ pkgs, host, options, ... }:
+{ pkgs, lib, host, options, ... }:
 {
   fileSystems."/mnt/general" = {
     device = lib.mkForce "172.23.1.3:/mnt/lh01/general";
