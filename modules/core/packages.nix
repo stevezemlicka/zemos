@@ -69,5 +69,6 @@
     v4l-utils
     virt-viewer
     wget
+    xfce.xfce4-terminal
   ];
 }
