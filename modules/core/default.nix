@@ -11,6 +11,7 @@
     ./network.nix
     ./nh.nix
     ./packages.nix
+    ./nfs-mounts.nix
     ./services.nix
     ./starfish.nix
     ./steam.nix
