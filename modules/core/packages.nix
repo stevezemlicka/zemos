@@ -28,8 +28,6 @@
     brave
     brightnessctl
     cmatrix
-    cowsay
-    discord
     docker-compose
     duf
     eza
@@ -37,6 +35,7 @@
     file-roller
     gedit
     gimp
+    google-chrome
     greetd.tuigreet
     htop
     hyprpicker
@@ -44,6 +43,7 @@
     inxi
     killall
     libnotify
+    libreoffice
     libvirt
     lm_sensors
     lolcat
@@ -51,15 +51,18 @@
     lxqt.lxqt-policykit
     meson
     mpv
+    musescore
+    muse-sounds-manager
     ncdu
     ninja
     nextcloud-client
     nixfmt-rfc-style
-    obs-studio
     pavucontrol
     pciutils
     pkg-config
     playerctl
+    qemu
+    reaper
     ripgrep
     socat
     tree
@@ -67,6 +70,7 @@
     unzip
     usbutils
     v4l-utils
+    virt-manager
     virt-viewer
     wget
     xfce.xfce4-terminal
