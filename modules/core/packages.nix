@@ -52,7 +52,6 @@
     meson
     mpv
     musescore
-    muse-sounds-manager
     ncdu
     ninja
     nextcloud-client
