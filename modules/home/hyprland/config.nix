@@ -41,7 +41,11 @@ in
           scroll_factor = 0.8;
         };
       };
-
+      
+      gestures = {
+        wokspace_swipe = true;
+      };
+      
       general = {
         "$modifier" = "SUPER";
         layout = "dwindle";
@@ -58,6 +62,7 @@ in
         initial_workspace_tracking = 0;
         mouse_move_enables_dpms = true;
         key_press_enables_dpms = false;
+        disable_hyprland_logo = true;
       };
 
       dwindle = {
@@ -103,7 +108,7 @@ in
 
       bind = [
         "$modifier,Return,exec,${terminal}"
-        "$modifier SHIFT,Return,exec,rofi-launcher"
+        "$modifier,R,exec,rofi-launcher"
         "$modifier SHIFT,W,exec,web-search"
         "$modifier ALT,W,exec,wallsetter"
         "$modifier SHIFT,N,exec,swaync-client -rs"
@@ -111,12 +116,12 @@ in
         "$modifier,E,exec,emopicker9000"
         "$modifier,S,exec,screenshootin"
         "$modifier,D,exec,discord"
-        "$modifier,O,exec,obs"
+        #"$modifier,O,exec,obs"
         "$modifier,C,exec,hyprpicker -a"
         "$modifier,G,exec,gimp"
         "$modifier SHIFT,G,exec,godot4"
         "$modifier,T,exec,thunar"
-        "$modifier,M,exec,spotify"
+        #"$modifier,M,exec,spotify"
         "$modifier,Q,killactive,"
         "$modifier,P,pseudo,"
         "$modifier SHIFT,I,togglesplit,"
