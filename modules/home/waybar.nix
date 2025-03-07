@@ -119,7 +119,7 @@ in
           };
           "custom/startmenu" = {
             tooltip = false;
-            format = "";
+            format = "";
             # exec = "rofi -show drun";
             on-click = "sleep 0.1 && rofi-launcher";
           };
@@ -248,7 +248,7 @@ in
           #custom-startmenu {
             color: #${config.lib.stylix.colors.base0B};
             background: #${config.lib.stylix.colors.base02};
-            font-size: 20px;
+            font-size: 18px;
             margin: 0px;
             padding: 0px 30px 0px 15px;
             border-radius: 0px 0px 40px 0px;
