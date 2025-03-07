@@ -43,7 +43,7 @@ in
       };
       
       gestures = {
-        wokspace_swipe = true;
+        workspace_swipe = true;
       };
       
       general = {
