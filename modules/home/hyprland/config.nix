@@ -102,7 +102,7 @@ in
           "windowsMove, 1, 5, wind, slide"
           "border, 1, 1, liner"
           "fade, 1, 10, default"
-          "workspaces, 1, 5, wind"
+          "workspaces, 1, 5, wind, slide"
         ];
       };
 
