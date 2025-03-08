@@ -42,6 +42,7 @@ nvidia
 nvidia-laptop
 intel
 vm
+nvidia-legacy_390
 Please type out your choice: " profile
 if [ -z "$profile" ]; then
   profile="amd"
