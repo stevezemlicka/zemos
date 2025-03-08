@@ -28,7 +28,7 @@
     brave
     brightnessctl
     cmatrix
-    davinci-resolve-studio
+    #davinci-resolve-studio
     docker-compose
     duf
     eza
