@@ -76,6 +76,7 @@
 	  inherit host;
 	  inherit profile;
 	};
+	nixpkgs.config.nvidia.acceptLicense = true;
 	modules = [./profiles/nvidia-legacy_390];
       };
     };
