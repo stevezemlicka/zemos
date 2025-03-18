@@ -15,5 +15,12 @@
   };
   drivers.intel.enable = true;
   vm.guest-services.enable = false;
-  hardware.nvidia.package = config.boot.kernelPackages.nvidiaPackages.legacy_390;
+  #nvidia legacy 390
+  hardware.nvidia = {
+    modesetting.enable = true;
+    powerManagement.enable = false;
+    powerManagement.finegrained = false;
+    nvidiaSettings = true;
+    package = config.boot.kernelPackages.nvidiaPackages.legacy_390;
+  };
 }
