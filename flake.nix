@@ -68,6 +68,16 @@
         };
         modules = [./profiles/vm];
       };
+      nvidia-legacy_390 = nixpkgs.lib.nixosSystem {
+        inherit system;
+	specialArgs = {
+	  inherit inputs;
+	  inherit username;
+	  inherit host;
+	  inherit profile;
+	};
+	modules = [./profiles/nvidia-legacy_390];
+      };
     };
   };
 }
