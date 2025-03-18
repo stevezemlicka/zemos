@@ -16,6 +16,10 @@
   drivers.intel.enable = true;
   vm.guest-services.enable = false;
   #nvidia legacy 390
+  hardware.graphics = {
+    enable = true;
+  };
+  services.xserver.videoDrivers = ["nvidia"];
   hardware.nvidia = {
     modesetting.enable = true;
     powerManagement.enable = false;
