@@ -74,5 +74,6 @@
     virt-viewer
     wget
     xfce.xfce4-terminal
+    xterm
   ];
 }
