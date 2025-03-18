@@ -19,8 +19,8 @@
   hardware.graphics = {
     enable = true;
   };
-  nixos.nvidia.acceptLicense = true;
   services.xserver.videoDrivers = ["nvidia"];
+  nvidia.acceptLicense = true;
   hardware.nvidia = {
     modesetting.enable = true;
     powerManagement.enable = false;
