@@ -21,7 +21,7 @@
   };
   services.xserver.videoDrivers = ["nvidia"];
   hardware.nvidia = {
-    nvidia.acceptLicense = true;
+    acceptLicense = true;
     modesetting.enable = true;
     powerManagement.enable = false;
     powerManagement.finegrained = false;
